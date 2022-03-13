@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/whoami/static/js/main.933ac709.js",
+    "index.html": "/whoami/index.html",
+    "main.933ac709.js.map": "/whoami/static/js/main.933ac709.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.933ac709.js"
+  ]
+}
