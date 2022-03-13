@@ -1,11 +1,11 @@
-import Navbar from './components/navbar';
+import { ThemeProvider, DefaultTheme } from 'styled-components';
 import usePersistedState from './utils/usePErsistedState';
-
 import light from './styles/themes/light';
 import dark from './styles/themes/dark';
-
 import GlovalStyle from './styles/global';
-import { ThemeProvider, DefaultTheme } from 'styled-components';
+
+import Navbar from './components/navbar';
+import Ability from './components/ability';
 
 
 export default function App() {
@@ -14,9 +14,10 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <div>
-        <Navbar toggleTheme={toggleTheme} />
-      </div>
+      <Navbar toggleTheme={toggleTheme} />
+      <main>
+        <Ability />
+      </main>
       <GlovalStyle />
     </ThemeProvider>
   );

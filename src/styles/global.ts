@@ -14,4 +14,12 @@ export default createGlobalStyle`
         color: ${props => props.theme.colors.text};
         font-family: sans-serif;
     }
+
+    main {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
 `
