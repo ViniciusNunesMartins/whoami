@@ -1,4 +1,4 @@
-import { FaLinux, FaDocker, FaPython, FaReact, FaAws } from "react-icons/fa";
+import { FaLinux, FaDocker, FaPython, FaReact, FaAws, FaGit } from "react-icons/fa";
 import { SiDjango, SiJavascript, SiFlask, SiFastapi, SiPostgresql } from "react-icons/si";
 import styled from "styled-components";
 
@@ -17,3 +17,5 @@ export const React = styled(FaReact)``;
 export const Postgresql = styled(SiPostgresql)``;
 
 export const Aws = styled(FaAws)``;
+
+export const Git = styled(FaGit)``;

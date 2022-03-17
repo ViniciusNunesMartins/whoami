@@ -34,13 +34,11 @@ const shake = keyframes`
     0% {
         transform: rotate(0deg);
     }
-    25% {
-        transform: rotate(20deg);
+    15% {
+        transform: rotate(30deg);
     }
-    75% {
-        transform: rotate(-20deg);
-    }
-    100% {
+    
+    30% {
         transform: rotate(0deg);
     }
 `;

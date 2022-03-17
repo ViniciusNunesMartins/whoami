@@ -10,7 +10,7 @@ interface IProps {
 const Navbar: FC<IProps> = ({ toggleTheme }) => {
     return (
         <Container>
-            <h1>@MinicioVartins</h1>
+            <h2>@MinicioVartins</h2>
             <ThemeSwitch toggleTheme={toggleTheme} />
         </Container>
     );

@@ -12,11 +12,13 @@ export const Container = styled.div`
 
 export const Sun = styled(BsFillSunFill)`
     padding: 5px;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
 `;
 
 export const Moon = styled(BsMoonFill)`
     padding: 5px;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
 `;
    
