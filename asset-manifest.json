@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/whoami/static/js/main.f5ebca1a.js",
+    "main.js": "/whoami/static/js/main.1c79d5a3.js",
     "index.html": "/whoami/index.html",
-    "main.f5ebca1a.js.map": "/whoami/static/js/main.f5ebca1a.js.map"
+    "main.1c79d5a3.js.map": "/whoami/static/js/main.1c79d5a3.js.map"
   },
   "entrypoints": [
-    "static/js/main.f5ebca1a.js"
+    "static/js/main.1c79d5a3.js"
   ]
 }
