@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.js": "/whoami/static/js/main.1c79d5a3.js",
+    "main.js": "/whoami/static/js/main.26c95526.js",
+    "static/media/mi.jpg": "/whoami/static/media/mi.ff1b336b81f4c59b89c0.jpg",
     "index.html": "/whoami/index.html",
-    "main.1c79d5a3.js.map": "/whoami/static/js/main.1c79d5a3.js.map"
+    "main.26c95526.js.map": "/whoami/static/js/main.26c95526.js.map"
   },
   "entrypoints": [
-    "static/js/main.1c79d5a3.js"
+    "static/js/main.26c95526.js"
   ]
 }
