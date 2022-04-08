@@ -2,10 +2,12 @@ import { ThemeProvider, DefaultTheme } from 'styled-components';
 import usePersistedState from './utils/usePErsistedState';
 import light from './styles/themes/light';
 import dark from './styles/themes/dark';
-import GlovalStyle from './styles/global';
+import GlobalStyle from './styles/global';
 
 import Navbar from './components/navbar';
+import Mi from './components/mi';
 import Ability from './components/ability';
+import Footer from './components/footer';
 
 
 export default function App() {
@@ -16,9 +18,11 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <Navbar toggleTheme={toggleTheme} />
       <main>
+        <Mi />
         <Ability />
       </main>
-      <GlovalStyle />
+      <Footer />
+      <GlobalStyle />
     </ThemeProvider>
   );
 }
